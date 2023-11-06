@@ -6,6 +6,7 @@ import Layout from "@/components/layout";
 import Skills from "@/components/skills";
 import AboutMe from "@/components/aboutMe";
 import Details from "@/components/Details";
+import Proyects from "@/components/proyects";
 export default function Home() {
   console.log(process.env);
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <AboutMe />
           <Details />
           <Skills />
+          <Proyects />
         </div>
       </Layout>
     </>
