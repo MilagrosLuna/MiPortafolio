@@ -9,7 +9,7 @@ export default function Proyects() {
     },
     {
       title: "Proyecto 2",
-      description: "Apps desarolladas en react native. Uso de linterna, camara, vibración, sonidos y firebase, tanto juegos como adminstración de ususarios",
+      description: "Apps desarolladas en react native. Uso de linterna, camara, vibración, sonidos y firebase, tanto juegos como adminstración de usuarios",
       imageSrc: "/proyects/native.png",
       githubLink: "https://github.com/MilagrosLuna/PracticaProfesional",
     },
