@@ -1,17 +1,11 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "../styles/inicio.module.css";
 import Head from "next/head";
 import Layout from "@/components/layout";
-import Skills from "@/components/skills";
-import AboutMe from "@/components/aboutMe";
-import Details from "@/components/Details";
-export default function Home() {
-  console.log(process.env);
+import Contacto from "@/components/Contact";
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Milagros Luna</title>
+        <title>Contacto</title>
         <meta name="description" content="Inicio" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,11 +17,7 @@ export default function Home() {
         <meta httpEquiv="Content-Language" content="es" />
       </Head>
       <Layout>
-        <div className=" w-full">
-          <AboutMe />
-          <Details />
-          <Skills />
-        </div>
+        <Contacto></Contacto>
       </Layout>
     </>
   );
