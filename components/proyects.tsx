@@ -19,7 +19,7 @@ export default function Proyects() {
       imageSrc: "/proyects/juegos.jpg",
       githubLink: "https://github.com/MilagrosLuna/Juegos",
     }, {
-        title: "Proyecto 3",
+        title: "Proyecto 4",
         description: "Clinica online, permite la administracion de usuarios, gestion de turnos y especialistas. Se encuentra en progreso...",
         imageSrc: "/proyects/clinica.jpg",
         githubLink: "https://github.com/MilagrosLuna/ClinicaOnline",
